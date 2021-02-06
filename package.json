@@ -1,8 +1,8 @@
 {
   "name": "nucamp-project",
   "version": "1.0.0",
-  "description": "Portfolio project",
-  "main": "capitol-coffee-pastry.html",
+  "description": "Webpage for hypothetical Coffee and Pastry lounge.",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
@@ -11,11 +11,14 @@
   "author": "Manny",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
+    "light-server": "^2.9.1",
     "popper.js": "^1.16.1"
   }
 }
