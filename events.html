@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="Coffee-css-styles\Coffee-and-Pastry.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy|Open+Sans"/>
     <title>Capitol Coffee &amp Pastry</title>
 </head>
@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img id="capitol" src="project-images\capitol-gold-building-icon-vector-21291675.jpg" height="85" width="85" class="img-fluid" />
+                    <img id="capitol" src="./img/capitol-icon.jpg" height="85" width="85" class="img-fluid" />
                 </div>
                 <div class="col-md">
                     <h1>
@@ -58,7 +58,7 @@
      
     <div class="container mt-5">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-7">
                 <div class="card">
                     <h2 class="card-header">Event Registration</h2>
                     <div class="card-body">
@@ -72,7 +72,9 @@
                                 <div class="form-group ml-2">
                                     <label for="lastName">Last Name:</label>
                                     <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Enter Last Name">
-                                </div> 
+                                </div>
+                            </div>
+                            <div class="form-row">     
                                 <div class="form-group ml-2">
                                     <label for="email">Email:</label>
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email">
@@ -81,11 +83,14 @@
                                     <label for="phone">Telephone Number:</label>
                                     <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Telephone Number">
                                 </div>
+                            </div>    
+                            <div class="form-row">   
                                 <div class="form-group ml-2">
                                     <label for="date">Date Of Event:</label>
                                     <input type="date" class="form-control" name="date" id="date">
                                 </div> 
-                            
+                            </div>
+                            <div class="form-row">
                                 <div class="col-sm-6">
                                 
                                     Will you need food and table services?
@@ -99,12 +104,14 @@
                                         <label class="form-check-label" for="no">No</label>
                                     </div>
                                 </div>
-                                <div class="col-sm">    
+                                <div>    
                                     Give a brief description of the event in 125 words or less:
-                                    <textarea id="textArea" name="decribeEvent" rows="5" col="25"  placeholder="Event Description"></textarea>
+                                    <div class="col-sm-6">
+                                        <textarea id="textArea" name="decribeEvent" rows="5" col="25"  placeholder="Event Description"></textarea>
+                                    </div>    
                                 </div>
                                 <div class="col-sm-12">
-                                    <button class="btn btn-primary" type="submit">Submit</button>
+                                    <button class="btn btn-secondary" type="submit">Submit</button>
                                     
                                 </div>    
                             </div>    
@@ -116,9 +123,9 @@
             </div>
             <div class="col">
                 
-                <img class="img-thumbnail" src="./project-images/coffeejazz.jpg" style="width: 75%" alt="Picture of event"/>
+                <img class="img-thumbnail" src="./img/past-event-1.jpg" style="width: 75%" alt="Picture of event"/>
                 <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ipsum consequat, hendrerit nunc ut, auctor tellus. Fusce eu eros ut ante rutrum mollis non id orci. Sed quis urna eleifend, varius nunc consequat, porttitor orci.</p>
-                <img class="img-thumbnail mt-2" src="./project-images/coffeejazz2.jpg" style="width: 75% " alt="Picture of event"/>
+                <img class="img-thumbnail mt-2" src="./img/pastevent3.jpg" style="width: 75% " alt="Picture of event"/>
                 <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ipsum consequat, hendrerit nunc ut, auctor tellus. Fusce eu eros ut ante rutrum mollis non id orci. Sed quis urna eleifend, varius nunc consequat, porttitor orci. </p>
             </div> 
         </div>
@@ -129,29 +136,29 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card img-fluid">
-                    <img class="card-img-top" src="./project-images/3061.jpg" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="./img/event-card-bg-img.jpg" alt="Card image" style="width:100%">
                     <div class="card-img-overlay"> 
                         <h2 class="card-header">What's Coming Up!</h2>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-3">
                                     <div class="img-fluid">
-                                        <img src="./project-images/shutterstock_1130984054.jpg" alt="Event to come" style="width:70%"/>
+                                        <img src="./img/whats-up-next-poster.jpg" alt="Event to come" style="width:70%"/>
                                     </div> 
                                 </div> 
                                 <div class="col-3">
                                     <div class="img-fluid">
-                                        <img src="./project-images/shutterstock_1211005708.jpg" alt="Event to come"style="width:75%"/>
+                                        <img src="./img/whats-up-next-poster6.jpg" alt="Event to come"style="width:75%"/>
                                     </div> 
                                 </div>
                                 <div class="col-3">
                                     <div class="img-fluid">
-                                        <img src="./project-images/shutterstock_481746454.jpg" alt="Event to come"style="width:74%"/>
+                                        <img src="./img/whats-up-next-poster3.jpg" alt="Event to come"style="width:74%"/>
                                     </div>       
                                 </div>
                                 <div class="col-3">
                                     <div class="img-fluid">
-                                        <img src="./project-images/lt00447294_quantized.png" style="width:79%" alt="Event to come" />
+                                        <img src="./img/whats-up-next-poster2.png" style="width:79%" alt="Event to come" />
                                     </div>       
                                 </div>
                             
