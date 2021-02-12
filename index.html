@@ -31,6 +31,7 @@
     </header>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
+            <a class="navbar-brand" href="#"><img class="img-thumbnail"src="./img/capitol-icon.jpg" height="30" width="30"/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cafeNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>  
@@ -40,7 +41,7 @@
                         <div class="dropdown">
                             <a class="nav-link btn-md dropdown-toggle active " href="#" role="button" id="dropDownMenuLink" data-toggle="dropdown"><strong> Menu</strong></a>
                             <div  class="dropdown-menu">
-                                <a class="dropdown-item" href="#drinks">Drinks</a>
+                                <a class="dropdown-item" href="#coffee">Coffee</a>
                                 <a class="dropdown-item" href="#pastries">Pastries</a>
                                 <a class="dropdown-item" href="#soups">Soups</a>
                                 <a class="dropdown-item" href="#salads">Salads</a>
@@ -56,29 +57,44 @@
                    
         </div>
     </nav>
+   
     <div class="container">
         <div class="row">
             <div class="col mt-4">
                 <h1 class="pageTitle"><img src="./img/menu-icon.png" style="width: 50px;"/>  Menu</h1>
             </div>
         </div> 
+        
+        <div class="row">
+            <div class="col-12">
+                <img class="img-thumbnail" src="./img/coffeecupsmenupage.jpg" style="width:100%";/>
+            </div>    
+        </div>    
+        
         <div class="row mt-5">   
-            <div class="col-sm-6">
-                <div class="card img-fluid" >
+            <div class="col">
+                <div class="card img-fluid">
                     <img class="card-img-top" src="./img/coffee-menu-img.png" alt="Card image" style="width:100%">
-                    <div class="card-img-overlay">  
+                    <div class="card-img-overlay menu-list">  
                        
-                        <section id="drinks">
-                            <h2 class="card-header">Drinks</h2>
+                        <section id="coffee">
+                            <h2 class="card-header">Coffee</h2>
                         </section>
-                        <div class="card-body menu-list">
-                            <dl class="row">
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
+                        <div class="card-body">
+                            <dl class="row ml-4 ">
+                                <dt class="col-6">Espresso</dt>
+                                <dd class="col-6">2.50</dd>
+                                <dt class="col-6">Machiatto</dt>
+                                <dd class="col-6">3.00</dd>
+                                <dt class="col-6">Cappuccino</dt>
+                                <dd class="col-6">3.00</dd>
+                                <dt class="col-6">Mocha</dt>
+                                <dd class="col-6">3.75</dd>
+                                <dt class="col-6">Latte</dt>
+                                <dd class="col-6">3.25</dd>
+                                <dt class="col-6">Fountain Drink</dt>
+                                <dd class="col-6">Short/2.00  Tall/3.00</dd>
+                                
                             </dl>
                         </div>
                               
@@ -89,78 +105,101 @@
             <div class="col-sm-6"> 
                 <div class="card img-fluid">
                     <img class="card-img-top" src="./img/pastry-menu-img.jpg" alt="Card image" style="width:100%">
-                    <div class="card-img-overlay">    
+                    <div class="card-img-overlay menu-list">    
                         <section id="pastries">
                             <h2 class="card-header">Pastries</h2>
                         </section>
-                        <div class="card-body menu-list">
-                            <dl class="row">
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                            </dl>
-                        </div>
+                        <dl class="row mt-3 ml-5">
+                            <dt class="col-6">Cannoli</dt>
+                            <dd class="col-6">4.50</dd>
+                            <dt class="col-6">English Bread Pudding</dt>
+                            <dd class="col-6">4.25</dd>
+                            <dt class="col-6">Apple Bread Pudding</dt>
+                            <dd class="col-6">4.25</dd>
+                            <dt class="col-6">Croissant Bread Pudding</dt>
+                            <dd class="col-6">4.25</dd>
+                            <dt class="col-6">Bizcocho</dt>
+                            <dd class="col-6">4.25</dd>
+                            
+                            
+                        </dl>
                     </div>    
                 </div>
             </div> 
             <div class="col-sm-6"> 
                 <div class="card img-fluid">
                     <img class="card-img-top" src="./img/soup-menu-img.jpg" alt="Card image" style="width:100%">
-                    <div class="card-img-overlay">    
+                    <div class="card-img-overlay menu-list">    
                         <section id="soups">
                             <h2 class="card-header">Soups</h2>
                         </section>
-                        <div class="card-body menu-list">
-                            <dl class="row">
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
+                        <div class="card-body">
+                            <dl class="row mt-1 ml-3">
+                                <dt class="col-6">Clam Chowder</dt>
+                                <dd class="col-6">5.50</dd>
+                                <dt class="col-6">Seafood Chowder</dt>
+                                <dd class="col-6">5.50</dd>
+                                <dt class="col-6">Ten Vegetable </dt>
+                                <dd class="col-6">5.50</dd>
+                                <dt class="col-6">Chicken Noodle &amp; Vegetable</dt>
+                                <dd class="col-6">5.50</dd>
+                                <dt class="col-6">Seafood Gumbo</dt>
+                                <dd class="col-6">7.00</dd>
+                                
+                            
                             </dl>
                         </div>
                     </div>    
                 </div>
             </div>         
-            <div class="col-sm-6"> 
+            <div class="col-sm-6 mt-3"> 
                 <div class="card img-fluid">
                     <img class="card-img-top" src="./img/salad-menu-img.jpg" alt="Card image" style="width:100%">
-                    <div class="card-img-overlay">    
+                    <div class="card-img-overlay menu-list">    
                         <section id="salads">
                             <h2 class="card-header">Salads</h2>
                         </section>
-                        <div class="card-body menu-list">
-                            <dl class="row">
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
+                        <div class="card-body">
+                            <dl class="row mt-2 ml-3">
+                                <dt class="col-6">Chicken Ceasar</dt>
+                                <dd class="col-6"> 6.00</dd>
+                                <dt class="col-6">Garden Deluxe</dt>
+                                <dd class="col-6">6.50</dd>
+                                <dt class="col-6">Greek</dt>
+                                <dd class="col-6">6.00</dd>
+                                <dt class="col-6">Bacon Ranch with Grilled Chicken</dt>
+                                <dd class="col-6">6.50</dd>
+                                <dt class="col-6">Southwest</dt>
+                                <dd class="col-6">6.25</dd>
+                                
+                            
                             </dl>
                         </div>
                     </div>    
                 </div>
             </div> 
-            <div class="col-sm-6 offset-sm-3"> 
+            <div class="col-sm-6 offset-sm-3 mb-5 mt-3"> 
                 <div class="card img-fluid">
                     <img class="card-img-top" src="./img/sandwiches-menu-img.jpg" alt="Card image" style="width:100%">
-                    <div class="card-img-overlay">    
+                    <div class="card-img-overlay menu-list">    
                         <section id="sandwiches">
                             <h2 class="card-header">Sandwiches</h2>
                         </section>
-                        <div class="card-body menu-list">
-                            <dl class="row">
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
-                                <dt class="col-6"></dt>
-                                <dd class="col-6"></dd>
+                        <div class="card-body">
+                            <dl class="row  ml-3">
+                                <dt class="col-6">Oven Roast Beef</dt>
+                                <dd class="col-6">7.95</dd>
+                                <dt class="col-6">Smoked Turkey</dt>
+                                <dd class="col-6">7.95</dd>
+                                <dt class="col-6">Oven Roasted Turkey</dt>
+                                <dd class="col-6">7.95</dd>
+                                <dt class="col-6">Smoked Ham</dt>
+                                <dd class="col-6">7.95</dd>
+                                <dt class="col-6">Tuna Salad</dt>
+                                <dd class="col-6">7.75</dd>
+                                <dt class="col-6">Chicken Salad</dt>
+                                <dd class="col-6">7.75</dd>
+                                
                             </dl>
                         </div>
                     </div>    
@@ -169,6 +208,32 @@
              
         </div>       
     </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-4 col-sm-2 offset-1">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="location-hours.html">Location &amp Hours</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook ml-2 mr-2" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                </div> 
+                <div class="col-sm-4 text-center">
+                    <h5>For More Info, Contact Us!</h5>
+                    <a role="button" class="btn btn-link" href="mailto:info@capitolc&ampp.com"><i class="fa fa-envelope-o"></i> info@capitolc&ampp.com</a>
+                </div>   
+                </div> 
+
+            </div>
+        </div>
+
+    </footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

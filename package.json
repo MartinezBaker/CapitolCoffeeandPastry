@@ -1,24 +1,31 @@
 {
   "name": "nucamp-project",
   "version": "1.0.0",
-  "description": "Webpage for hypothetical Coffee and Pastry lounge.",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Manny",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immortalblackson/CapitolCoffeeandPastry.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immortalblackson/CapitolCoffeeandPastry/issues"
+  },
+  "homepage": "https://github.com/immortalblackson/CapitolCoffeeandPastry#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.5.4"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
-    "light-server": "^2.9.1",
     "popper.js": "^1.16.1"
   }
 }
